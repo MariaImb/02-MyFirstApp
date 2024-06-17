@@ -16,7 +16,7 @@ export const CounterM3Screen = () => {
       <FAB
         style={globalStyles.fab}
         onPress={() => setCount(count + 1)}
-        onLongPress={() => setCount(0)}0
+        onLongPress={() => setCount(0)}
         icon="add"
       />
     </View>
